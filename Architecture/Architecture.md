@@ -19,19 +19,6 @@ flowchart TB
     Laptop -.->|"SSH TCP/22"| Server
 ```
 
-### Current Configuration
-
-| Component | Configuration |
-|---|---|
-| Server | Dell OptiPlex 7010 SFF |
-| Operating System | Ubuntu Server 24.04 LTS |
-| Memory | 10 GB DDR3 |
-| Storage | Samsung 128 GB SSD |
-| Network | Gigabit Ethernet |
-| IP Address | 10.0.0.164/24 (DHCP) |
-| Gateway | 10.0.0.1 |
-| Remote Access | OpenSSH |
-
 
 
 --- 
@@ -70,7 +57,6 @@ flowchart TB
 
 ### Planned Implementation
 
-- [ ] Install secondary SSD.
 - [ ] Integrate NETGEAR GS308E.
 - [ ] Document switch port assignments.
 - [ ] Configure VLAN membership.
