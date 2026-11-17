@@ -110,8 +110,3 @@ Successfully completed the initial hardware inspection, identified installed com
 
 The system was confirmed operational and ready for bare-metal Ubuntu Server deployment.
 
-## 📁 Related Documentation
-
-[Hardware Asset Record](Hardware-Asset-Record.md)
-
-[Return to Main Project](../README.md)
