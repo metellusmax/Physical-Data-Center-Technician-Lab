@@ -326,12 +326,4 @@ The system was prepared for network configuration, remote administration, and fu
 - SSH service configuration
 - Technical troubleshooting and documentation
 
----
 
-## 📁 Related Documentation
-
-- ../Phase-1-Hardware-Inspection/Hardware-Inspection.md
-- ../Phase-1-Hardware-Inspection/Hardware-Asset-Record.md
-- ../Phase-3-Networking/Network-Configuration.md
-- ../Phase-3-Networking/SSH-Administration.md
-- ../README.md
