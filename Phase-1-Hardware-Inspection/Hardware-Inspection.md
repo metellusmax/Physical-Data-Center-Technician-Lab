@@ -90,19 +90,44 @@ The system successfully completed initial hardware validation.
 
 ### Initial System Inspection
 
-[INSERT PHOTO: Dell OptiPlex exterior]
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/38bebf11-eddb-479c-9a40-93c946060732" /> 
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/9bb45414-87f3-4cc9-b3f6-21a438a1a07d" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/d5e75add-2268-4ac2-8342-a408c487779b" />
+
+
+
+
+
+
+
+
+
 
 ### Internal Component Inspection
 
-[INSERT PHOTO: Open chassis and motherboard]
+<img width="300" height="200" alt="Designer" src="https://github.com/user-attachments/assets/233407a6-92f5-4702-8d36-debac5584f24" />
+
+
+
 
 ### Memory Module Inspection
 
-[INSERT PHOTO: Original DDR3 memory modules]
+<img width="200" height="200" alt="IMG_1713 jpg" src="https://github.com/user-attachments/assets/a8e726ae-3316-49f2-b80f-a37f1052428c" />
+
+
+
+
 
 ### BIOS Verification
 
-[INSERT SCREENSHOT: BIOS system information]
+
+
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/5a273746-7e6e-4f7a-bb2a-d293a73e471c" />
+
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/f2747231-7f73-4222-b84c-0bfe138659b1" />
+
+
+
 
 ## 📝 Outcome
 
