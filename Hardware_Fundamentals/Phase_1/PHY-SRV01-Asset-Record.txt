@@ -1,1 +1,182 @@
+PHYSICAL DATA CENTER TECHNICIAN LAB
+HARDWARE ASSET RECORD
 
+========================================
+1. ASSET INFORMATION
+========================================
+
+Asset Name: PHY-SRV01
+Manufacturer: Dell
+Model: OptiPlex 7010
+Form Factor: Small Form Factor (SFF)
+Service Tag: *****
+Acquisition Date:11/13/2026
+Asset Status: Initial Inspection
+
+========================================
+2. PROCESSOR
+========================================
+
+CPU: Intel Core i5-3470
+Clock Speed: 3.20 GHz
+Cores: 4
+Threads: 4
+Hyper-Threading: No
+64-bit Support: Yes
+L3 Cache: 6 MB
+========================================
+3. MEMORY
+========================================
+
+Installed RAM: 4 GB
+Available Memory: 3988 MB
+
+Memory Type: DDR3 SDRAM
+Memory Speed: 1333 MHz
+Memory Channel: Dual Interleave
+
+Total DIMM Slots: 4
+Populated Slots: 2
+Empty Slots: 2
+
+DIMM 1: 2 GB
+DIMM 2: 2 GB
+DIMM 3: Empty
+DIMM 4: Empty
+
+========================================
+4. STORAGE
+========================================
+
+Primary SSD: Samsung PM851
+
+Capacity: 128 GB
+Interface: SATA
+SATA Port: SATA-0
+
+Optical Drive: MATSHITA DVD+/-RW UJ8E1
+SATA Port: SATA-1
+
+Secondary Storage: 128 GB SATA SSD
+Status: Pending Installation
+
+Available SATA Port: SATA-2
+
+========================================
+5. NETWORK HARDWARE
+========================================
+
+Integrated Ethernet NIC: Enabled
+NIC MAC Address:
+Ethernet Port Present: Yes
+USB Wi-Fi Adapter Included: Yes
+
+========================================
+6. BIOS / UEFI
+========================================
+
+BIOS Version: A29
+Boot Mode: Legacy
+Secure Boot: Disabled
+
+Integrated NIC: Enabled with PXE
+
+========================================
+7. INITIAL PHYSICAL INSPECTION
+========================================
+
+Chassis Condition: Good
+Front Ports Condition: Good
+Rear Ports Condition: Good
+Power Cord Included: Yes
+Visible Physical Damage: None
+
+
+========================================
+8. HARDWARE VALIDATION
+========================================
+
+Initial Power-On: PASS
+POST: PASS
+BIOS Access: PASS
+CPU Detection: PASS
+Memory Detection: PASS
+Storage Detection: PASS
+Dell Diagnostics: PASS
+
+========================================
+9. PLANNED SERVER CONFIGURATION
+========================================
+
+Operating System: Ubuntu Server 24.04 LTS
+Hostname: phy-srv01
+
+Primary SSD: Existing 128 GB SSD
+Secondary SSD: Additional 128 GB SSD
+
+Network Connection: Wired Ethernet
+Remote Administration: SSH
+
+========================================
+INTERNAL HARDWARE INSPECTION
+========================================
+
+Motherboard: IDENTIFIED
+
+CPU Heatsink: IDENTIFIED
+
+CPU Cooling Fan: IDENTIFIED
+
+DIMM Slots: 4
+
+Installed DIMMs: 2
+
+Empty DIMM Slots: 2
+
+Installed RAM: 4 GB DDR3
+
+Memory Speed: 1333 MHz
+
+Memory Channel: Dual Interleave
+
+Primary SSD:
+Samsung PM851 128 GB
+
+Drive Assembly:
+Removed successfully
+
+========================================
+MEMORY MODULE INSPECTION
+========================================
+
+DIMM 1:
+Manufacturer: Samsung
+Capacity: 2 GB
+Memory Type: DDR3
+Rated Speed: 1600 MT/s
+Part Number: M378B5773DH0-CH9
+
+DIMM 2:
+Manufacturer: Samsung
+Capacity: 2 GB
+Memory Type: DDR3
+Rated Speed: 1333 MT/s
+Part Number: M378B5773CH0-CH9
+
+Total Installed RAM: 4 GB
+
+BIOS Operating Speed: 1333 MT/s
+
+Memory Channel Mode: Dual Interleave
+
+========================================
+HARDWARE SERVICING
+========================================
+
+DIMM 1 Removal: COMPLETE
+DIMM 1 Reinstallation: COMPLETE
+
+DIMM 2 Removal: COMPLETE
+DIMM 2 Reinstallation: COMPLETE
+
+Post-Service BIOS Validation: PENDING
