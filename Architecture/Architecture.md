@@ -32,7 +32,7 @@ and additional infrastructure troubleshooting exercises.
 ```mermaid
 flowchart TB
     Internet((Internet))
-    Router["Home Router / Gateway<br/>VLAN Routing: To Be Determined"]
+    Router["Home Router / Gateway<br/>VLAN Routing:"]
     Switch["NETGEAR GS308E<br/>8-Port Gigabit Managed Switch"]
 
     Server["VLAN 10 - Server<br/>Dell OptiPlex 7010 SFF<br/>Ubuntu Server"]
