@@ -10,7 +10,7 @@ using SSH.
 flowchart TB
     Internet((Internet))
     Router["Home Router<br/>Gateway: 10.0.0.1"]
-    Server["Dell OptiPlex 7010 SFF<br/>Ubuntu Server 24.04 LTS<br/>10 GB RAM | 128 GB SSD<br/>10.0.0.164"]
+    Server["Dell OptiPlex 7010 SFF<br/>Ubuntu Server 24.04 LTS<br/>10.0.0.164"]
     Laptop["Windows Laptop<br/>SSH Administration"]
 
     Internet --- Router
@@ -48,7 +48,7 @@ flowchart TB
     Router["Home Router / Gateway<br/>VLAN Routing: To Be Determined"]
     Switch["NETGEAR GS308E<br/>8-Port Gigabit Managed Switch"]
 
-    Server["VLAN 10 - Server<br/>Dell OptiPlex 7010 SFF<br/>Ubuntu Server<br/>10 GB RAM | Dual SSD"]
+    Server["VLAN 10 - Server<br/>Dell OptiPlex 7010 SFF<br/>Ubuntu Server"]
     Laptop["VLAN 20 - Management<br/>Windows Laptop"]
     Test["VLAN 30 - Testing<br/>Future Lab Endpoint"]
 
