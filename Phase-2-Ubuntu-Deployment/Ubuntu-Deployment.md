@@ -11,6 +11,8 @@ Deploy Ubuntu Server directly onto physical hardware to establish a Linux server
 
 This phase focuses on bootable media creation, BIOS configuration, operating system installation, storage provisioning, and system validation.
 
+
+
 ## ⚙️ Deployment Environment
 
 | Component | Configuration |
@@ -26,10 +28,9 @@ This phase focuses on bootable media creation, BIOS configuration, operating sys
 | Hostname | `dct-lab-server` |
 | Administrator Account | `max` |
 
-> The server was initially deployed with 4 GB RAM. Memory was
-> subsequently upgraded to 10 GB during Phase 4.
+> The server was initially deployed with 4 GB RAM.
+> Memory was subsequently upgraded to 10 GB during Phase 4.
 
----
 
 ## 🔧 1. Bootable USB Preparation
 
@@ -46,46 +47,22 @@ Downloaded the Ubuntu Server 24.04.3 LTS ISO and used Rufus to create bootable i
 | Installation Media | 16 GB USB |
 | Image Writing Mode | DD Image Mode |
 
-### Installation Media Troubleshooting
-
-**Issue:** The initial bootable USB failed to load the Ubuntu installer.
-
-The system displayed:
-
-```text
-GRUB loading.
-Welcome to GRUB!
-```
-
-The boot process remained at the GRUB loading screen.
-
-**Troubleshooting Performed:**
-
-1. Restarted the system and attempted USB boot again.
-2. Verified the USB was selected through the Legacy Boot menu.
-3. Recreated the bootable USB using Rufus.
-4. Selected DD Image Mode instead of ISO Image Mode.
-5. Retried booting from the USB.
-
-**Resolution:** Recreating the installation media using DD Image Mode resolved the boot issue.
-
-**Result:** Successfully loaded the Ubuntu Server installer.
+**Result:** Successfully created bootable installation media and loaded the Ubuntu Server installer.
 
 ### 📸 Evidence
 
 **Rufus Bootable USB Configuration**
 
-[INSERT SCREENSHOT: Rufus configuration]
+<img width="417" height="543" alt="image" src="https://github.com/user-attachments/assets/bb0ae4d6-f234-4753-b9e0-cfd59de17eb0" />
 
-**GRUB Boot Issue**
-
-[INSERT SCREENSHOT: GRUB loading screen]
 
 **Successful Ubuntu Installer Boot**
 
-[INSERT SCREENSHOT: Ubuntu Server installer]
+<img width="1134" height="504" alt="image" src="https://github.com/user-attachments/assets/2bbb42fa-c8c4-4730-97da-37c9bcc731a9" />
 
----
+
+
+
 
 ## 🖥️ 2. Ubuntu Server Installation
 
@@ -123,19 +100,12 @@ Booted the Dell OptiPlex 7010 SFF using the installation USB and completed the U
 
 ### 📸 Evidence
 
-**Ubuntu Installation Configuration**
-
-[INSERT SCREENSHOT: Ubuntu installation settings]
-
-**Successful Installation**
-
-[INSERT SCREENSHOT: Ubuntu Server installation completion]
 
 **First Successful Boot**
 
-[INSERT SCREENSHOT: Ubuntu Server login screen]
+<img width="296" height="157" alt="image" src="https://github.com/user-attachments/assets/8bb4621b-0209-4610-a9d3-4760bfb83513" />
 
----
+
 
 ## 💾 3. Storage Configuration
 
@@ -161,7 +131,7 @@ Configured the Samsung PM851 128 GB SSD using Ubuntu's guided storage installati
 | Root Logical Volume | 58.6 GiB |
 | Unallocated LVM Space | Approximately 58.6 GiB |
 
-The remaining space within the volume group was intentionally left unallocated for future LVM administration exercises.
+The remaining space within the volume group was retained for future LVM administration exercises.
 
 ### Storage Validation Commands
 
@@ -184,19 +154,13 @@ sudo lvs
 
 ### 📸 Evidence
 
-**Storage Partition Layout**
+**Storage Partition Layout, Filesystem Utilization and LVM Verification**
 
-[INSERT SCREENSHOT: lsblk output]
+<img width="953" height="701" alt="image" src="https://github.com/user-attachments/assets/adfe503a-877e-484f-b302-1e4c147c79a1" />
 
-**Filesystem Utilization**
 
-[INSERT SCREENSHOT: df -h output]
 
-**LVM Verification**
 
-[INSERT SCREENSHOT: pvs, vgs, and lvs output]
-
----
 
 ## ✅ 4. Operating System & Hardware Validation
 
@@ -237,19 +201,14 @@ lsblk
 
 ### 📸 Evidence
 
-**Operating System Verification**
+**Operating System, Processor and Memory Verification**
 
-[INSERT SCREENSHOT: hostnamectl output]
+<img width="1222" height="781" alt="image" src="https://github.com/user-attachments/assets/5cc10692-e33c-4c13-ab16-9c7c99a1afc0" />
 
-**Processor Verification**
 
-[INSERT SCREENSHOT: lscpu output]
 
-**Initial Memory Verification**
 
-[INSERT SCREENSHOT: free -h output showing 3.7 GiB]
 
----
 
 ## 🔐 5. OpenSSH Installation
 
@@ -283,20 +242,10 @@ Remote SSH connectivity was subsequently established and validated during Phase 
 
 **SSH Socket Verification**
 
-[INSERT SCREENSHOT: systemctl status ssh.socket]
+<img width="1163" height="371" alt="image" src="https://github.com/user-attachments/assets/e78d778b-6e8b-4fe0-8a1b-d141e72f0e9d" />
 
----
 
-## 📝 6. Troubleshooting Summary
 
-| Issue | Troubleshooting | Resolution |
-|-------|-----------------|------------|
-| Ubuntu USB stalled at GRUB | Recreated bootable media | Used Rufus DD Image Mode |
-| No Ethernet during installation | Continued offline | Configured networking during Phase 3 |
-| SSD displayed approximately 119 GiB | Verified disk capacity | Confirmed normal capacity reporting |
-| Root filesystem used approximately half the LVM volume group | Reviewed LVM configuration | Retained free space for future exercises |
-
----
 
 ## 🏁 Outcome
 
@@ -313,17 +262,17 @@ The deployment established a functional Linux server with:
 
 The system was prepared for network configuration, remote administration, and future hardware expansion.
 
+---
+
 ## 🛠️ Skills Demonstrated
 
 - Bare-metal operating system deployment
 - BIOS and boot configuration
 - Bootable USB creation
-- GRUB troubleshooting
 - Linux installation
 - Disk partitioning
 - Logical Volume Manager (LVM)
 - Linux hardware validation
 - SSH service configuration
-- Technical troubleshooting and documentation
-
+- Technical documentation
 
