@@ -32,9 +32,9 @@ The NETGEAR GS308E managed switch will be integrated to support VLAN configurati
 - Remote administration through SSH
 - 10 GB DDR3 RAM
 - 128 GB SATA SSD
+- Secondary SSD installation and configuration
 
 **Planned Expansion**
-- Secondary SSD installation and configuration
 - NETGEAR GS308E switch integration
 - VLAN configuration and network segmentation
 - Additional network troubleshooting exercises
