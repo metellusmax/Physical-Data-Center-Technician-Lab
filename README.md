@@ -12,7 +12,7 @@ This project documents the deployment, configuration, troubleshooting, and maint
 | Processor | Intel Core i5-3470 @ 3.20 GHz |
 | Memory | 10 GB DDR3 (1333 MT/s) |
 | Primary Storage | Samsung 128 GB SATA SSD |
-| Secondary Storage | Pending installation |
+| Secondary Storage | Patriot P210 128 GB SATA SSD |
 | Operating System | Ubuntu Server 24.04 LTS |
 | Network Switch | NETGEAR GS308E 8-Port Gigabit |
 | Networking | Gigabit Ethernet, DHCP |
@@ -45,13 +45,13 @@ The NETGEAR GS308E managed switch will be integrated to support VLAN configurati
 
 | Phase | Description | Status |
 |-------|-------------|--------|
-| [Phase 1](Phase-1-Hardware-Inspection/Hardware-Inspection.md) | Hardware Inspection & Inventory | ✅ Complete |
-| [Phase 2](Phase-2-Ubuntu-Deployment/Ubuntu-Deployment.md) | Bare-Metal Ubuntu Deployment | ✅ Complete |
-| [Phase 3](Phase-3-Networking/Network-Configuration.md) | Network Cabling & Remote Administration | ✅ Core Complete |
-| [Phase 4](Phase-4-Hardware-Upgrades/RAM-Upgrade.md) | RAM & Storage Upgrades | 🔄 In Progress |
-| Phase 5 | Linux Storage Administration | ⏳ Planned |
-| Phase 6 | Managed Switching & VLANs | ⏳ Planned |
-| Phase 7 | Final Validation & Documentation | ⏳ Planned |
+| [Phase 1](Phase-1-Hardware-Inspection/) | Hardware Inspection & Inventory | ✅ Complete |
+| [Phase 2](Phase-2-Ubuntu-Deployment/) | Bare-Metal Ubuntu Deployment | ✅ Complete |
+| [Phase 3](Phase-3-Networking/) | Network Cabling & Remote Administration | ✅ Complete |
+| [Phase 4](Phase-4-Hardware-Upgrades/) | RAM & Storage Upgrades | ✅ Complete |
+| [Phase 5](Phase-5-Storage-Administration/) | Linux Storage Administration | ✅ Complete |
+| [Phase 6](Phase-6-Switching-and-VLANs/) | Managed Switching & VLANs | ⏳ Planned |
+| [Phase 7](Phase-7-Final-Validation/) | Final Validation & Documentation | ⏳ Planned |
 
 ## 🛠️ Technical Skills
 
@@ -81,8 +81,9 @@ The NETGEAR GS308E managed switch will be integrated to support VLAN configurati
 
 ## 🚀 Current Status
 
-Successfully deployed Ubuntu Server on physical hardware, configured Ethernet networking, established SSH remote administration, and upgraded system memory from 4 GB to 10 GB.
+Successfully deployed and configured a physical Ubuntu Server
+on a Dell OptiPlex 7010 SFF.
 
-**Next Milestone:** Complete the secondary SSD installation and configure additional Linux storage.
-
-Detailed implementation steps, screenshots, and validation results are documented within each project phase.
+**Next Milestone:** Integrate the NETGEAR GS308E 8-Port Gigabit
+Easy Smart Managed Switch and begin VLAN configuration,
+network segmentation, and switch management exercises.
